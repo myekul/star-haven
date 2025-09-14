@@ -1,0 +1,16 @@
+:root {
+    --banner: yellow;
+    --bannerText: black;
+}
+
+table {
+    background-color: var(--background1);
+}
+
+.red {
+    background-color: indianred;
+}
+
+.coins {
+    background-color: goldenrod;
+}
