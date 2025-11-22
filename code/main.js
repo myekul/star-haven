@@ -1,5 +1,5 @@
 gapi.load('client', () => loadClient(true));
-setFooter('2025')
+setFooter(2025)
 setTabs(['home', null, 'ballpit'])
 initializeHash('home')
 // setSidebar(generateSidebar())

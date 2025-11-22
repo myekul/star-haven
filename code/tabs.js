@@ -24,7 +24,7 @@ function generateHome() {
     document.getElementById('content').innerHTML = HTMLContent
 }
 function getImage(course, size = 64) {
-    return `<img src='https://myekul.github.io/shared-assets/sm64/images/${course.id}.png' style='height:${size}px'>`
+    return `<img src='https://myekul.com/shared-assets/sm64/images/${course.id}.png' style='height:${size}px'>`
 }
 function generateBallpit() {
     document.getElementById('content').innerHTML = `<div id='ballpit'></div>`

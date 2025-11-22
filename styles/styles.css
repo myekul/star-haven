@@ -1,6 +1,7 @@
 :root {
-    --banner: yellow;
-    --bannerText: black;
+    --banner: deepskyblue;
+    --bannerText: dimgray;
+    --font2: 'mario'
 }
 
 table {
@@ -13,4 +14,12 @@ table {
 
 .coins {
     background-color: goldenrod;
+}
+
+#starHaven {
+    filter: drop-shadow(1px 1.5px 0 brown);
+    background: linear-gradient(to bottom, orangered, yellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
